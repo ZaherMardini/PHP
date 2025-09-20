@@ -1,0 +1,20 @@
+FontAwesome => all.min.css 'from css folder within the zip file' + this file must be places in a directory named "css"
+		and before that directory './css' there must be a file 'webfonts' from the zip file
+
+Bootstrap->dist->css =>  Bootstrap.min.css + Bootstrap->dist->js => Bootstrap.Bundle.min.js
+
+
+
+Suggested Project structure
+
+Assets/
+├── css/
+│   ├── bootstrap.min.css       # Bootstrap CSS
+│   ├── all.min.css             # Font Awesome CSS
+│   └── contact.css             # Your custom CSS
+├── js/
+│   └── bootstrap.bundle.min.js # Bootstrap JS + Popper
+└── webfonts/                   # Font Awesome icons
+    ├── fa-solid-900.woff2
+    ├── fa-regular-400.ttf
+    └── ...

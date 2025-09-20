@@ -1,0 +1,16 @@
+.fa-trash{
+    color:rgb(206, 4, 4);
+}
+.fa-pen-to-square{
+    color:blue;
+}
+a{
+    text-decoration: none;
+}
+input{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width:50%;
+}
