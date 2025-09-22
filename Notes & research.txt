@@ -1,0 +1,258 @@
+==========Question #1==========
+--> When i send data via the form can you explain what is appearing in the network table
+    in the browser(Headers, payloads, ...etc), and explain the source table
+
+==> https://chatgpt.com/share/6863a3fe-5928-8010-8094-d8aa44837505
+==========End Question #1==========
+
+==========Question #2==========
+--> When i send data via the form can you explain why every time i refresh the browser,
+    the last values intered in the form are inserted in the database even if i didn't 
+    write them again, same goes for the text displayed using "echo" function it always remains
+    in the page even after refreshing, after solving the issue what is going under the hood
+
+==> The request are stored in an internal memory of the browser called transient momory
+==> https://chatgpt.com/share/6863a8b6-e864-8010-b62c-26411e067fde
+==========End Question #2==========
+
+==========Question #3==========
+--> Associative and numeric arrays in php
+
+==> https://chatgpt.com/share/6863b99e-f6a8-8010-abe2-1d85537ad8b5
+==========End Question #3==========
+
+==========Question #4==========
+--> In php why can the variables be accesed outside the if scope
+
+==> In PHP, control structures like if, for, 
+    while, etc. do not create a new scope. Only functions, classes, and included/required files do.
+==========End Question #4==========
+
+==========Question #5==========
+--> Why does the href attribute in HTML only send a GET request
+    when performing deleting and updating operations isn't it risky?
+
+==> https://chatgpt.com/share/6863bf1a-5f9c-8010-85b6-394add204f13
+==========End Question #5==========
+
+==========Question #6==========
+--> Explain http request parameters
+==> https://chatgpt.com/share/6863c0d4-0548-8010-a058-a1231d5c8101
+==========End Question #6==========
+
+==========Question #7==========
+--> How does the php script run when multiple scripts are present in the same page(after question #4)
+==> https://chatgpt.com/share/6863c0d4-0548-8010-a058-a1231d5c8101
+==========End Question #7==========
+
+==========Question #7==========
+--> What does the option "view page source" mean in the browser?(html entity in the inspect tab is different from the source tab)
+==> https://chatgpt.com/share/6863c0d4-0548-8010-a058-a1231d5c8101
+==========End Question #7==========
+
+==========Question #8==========
+--> Exception vs Error vs Warning vs glitch vs bug
+==> https://chatgpt.com/c/68710281-47f0-8010-bbf8-4193cdeccb70
+==========End Question #8==========
+
+==========Question #9==========
+--> Server side and client side validation
+==> https://chatgpt.com/c/6871044a-2324-8010-ae8d-4fd5c1299f82
+==========End Question #9==========
+
+==========Question #10==========
+--> PDO VS Mysqli
+==> https://chatgpt.com/c/6871055e-aeb8-8010-a673-21995a97072b
+==========End Question #10==========
+
+==========Question #11==========
+--> SQL injection & characters escaping
+==> https://chatgpt.com/c/687109ed-26a0-8010-aa08-eb08ccbbecd1
+==========End Question #11==========
+
+==========Question #12==========
+--> If data is visible in the url when sending GET request, where does the data go when sending POST request
+==> https://chatgpt.com/c/68710d85-0f9c-8010-a403-c834b9911b16
+==========End Question #12==========
+
+==========Question #13==========
+--> What is domain and subdomain and what is the difference between them and the web page
+==> https://chatgpt.com/c/68711ad0-fce4-8010-8804-142621ba84de
+==========End Question #13==========
+
+==========Question #14==========
+--> what is www. and what is the difference between it and https://
+==> https://chatgpt.com/c/68711d47-0ec4-8010-8193-98f8c859e3df
+==========End Question #14==========
+
+==========Question #15==========
+--> what is the difference between sessions and cookies and when the session is finished
+    and when to use each
+==> https://chatgpt.com/c/68711f35-b454-8010-974f-027cbd948cf5
+==========End Question #15==========
+
+==========Question #16==========
+--> what is the difference between <input type="submit"> and <button>
+==> https://chatgpt.com/c/687128af-9624-8010-841e-302a5ff7cbf2
+==========End Question #16==========
+
+==========Question #17==========
+--> what is enctype="multi-part/form-data" attribute
+==> https://chatgpt.com/c/68712a79-c0d8-8010-aecc-62d1d769c4df
+==========End Question #17==========
+
+==========Question #18==========
+--> $result->fetch_all(MYSQLI_ASSOC) and $result->fetch_array(MYSQLI_ASSOC);
+==> https://chatgpt.com/c/68712e67-d3c4-8010-92bc-5edbf961bbc1
+==========End Question #18==========
+
+==========Question #19==========
+--> <a href="index.php"> vs header("location: index.php") 
+==> https://chatgpt.com/c/68712f94-0508-8010-bba9-e357cce0fda5
+==========End Question #19==========
+
+==========Question #20==========
+--> Why we don't use JSON when fetching data in php
+==> https://chatgpt.com/c/687680ba-f02c-8010-a726-ca1096e2abf9
+==========End Question #20==========
+
+==========Question #21==========
+--> Explain the purpose of using exceptions, and why the default (fatal error messages) are not enough
+==> https://chatgpt.com/c/6887695a-9d60-8010-ac70-5e26831c89a4
+==========End Question #21==========
+
+==========Question #22==========
+--> Why pure php is heavely relied on Associative arrays, and is this the same with other programming languages
+    i mean like, do they heavely rely on one datastructure to perform almost everything related to data
+==> https://chatgpt.com/c/68876b5b-d4bc-8010-82f1-0f5c2c502369
+==========End Question #22==========
+
+==========Question #23==========
+--> In my sql after deleting the records how to reset the auto-incrementing ID to 0,
+    so it won't continue counting from the last deleted record ID 
+==> https://chatgpt.com/c/688784aa-8ca8-8010-8ef8-e314ae48c189
+==========End Question #23==========
+
+==========Question #23==========
+--> Does flatter framework considered a frontend framework for mobile? 
+==> https://chatgpt.com/c/6887868e-62ac-8010-8e56-3437dacfad13
+==========End Question #23==========
+
+==========Question #24==========
+--> How does the PDO method fetch returns one row or false, can a function returns multiple datatypes? 
+==> https://chatgpt.com/c/688786eb-fda4-8010-bcde-d6ad9ecf44ae
+==========End Question #24==========
+
+==========Question #25==========
+--> How to maintain the old form values in pure php, is it best practice to store the previous values in session's storage? 
+==> https://chatgpt.com/c/6887882e-b700-8010-b42c-4a42e36bc104
+==========End Question #25==========
+
+==========Question #26==========
+--> What are directory traversal attacks? 
+==> https://chatgpt.com/c/68878a8c-eff8-8010-a458-7729b998400a
+==========End Question #26==========
+
+==========Question #27==========
+--> What is the difference between Uploading and downloading and in network context why their speeds are different? 
+==> https://chatgpt.com/c/68878b7e-1bc4-8010-87d0-d3bda557771c
+==========End Question #27==========
+
+==========Question #28==========
+--> What is the best practice to place php script in html file? 
+==> https://chatgpt.com/c/68878c55-7f10-8010-ab56-223472457191
+==========End Question #28==========
+
+==========Question #29==========
+--> Complete explanation about project 8? 
+==> https://chatgpt.com/c/68878d5c-3520-8010-8f4c-132b68f02a64
+==========End Question #29==========
+
+++++++++++ Important Note ++++++++++
+Api project in laravel 
+https://chatgpt.com/c/68768396-f0e4-8010-8753-88af711112f1
+++++++++++End Important Note ++++++++++
+
+++++++++++Note #1++++++++++
+Redirecting in pure php:
+
+header("Location:http://phppractice.local/display.php");
+header("Refresh:2; url=http://phppractice.local/display.php");
+exit;
+++++++++++End Note #1++++++++++
+
+++++++++++Note #3++++++++++
+In any pure php project that contains forms 
+don't forget to put a redirection using header()
+to reset the request and make it GET
+++++++++++End Note #3++++++++++
+
+++++++++++Note #4++++++++++
+REGEX cheat sheet (use regex101 website)
+--> The main function to deal with regex are preg_match() & preg_match_all
+--> "|" the pipe in regex is like the "or" statement, ex /d|b|v/ => match d or b or v
+--> "[bxcv] === b|x|c|v" when typing random patterns in the square brackets it's like using the pipe operator
+--> "[]" square brackets are used to specify the range, ex: /[r-z]/ => match all characters from r to z
+--> "[^]" caret operator match everything except ..., ex /[^s]/ => match everything except s
+
+========>Meta charachers<======== written OUTSIDE the square brackets
+--> "\w"   word character, shorthand for [a-zA-Z0-9_] notice the underscore
+--> "\W"   non-word character, the opposite of "\w", matches spaces dash special characters question mark etc...
+--> "\d"   digit character, shorthand for [0-9]
+--> "\D"   non-digit character, shorthand for [^0-9]
+--> "\s"   white space character, matches spaces, tabs, newline characters
+--> "\S"   non-white space character
+--> "."    matches any character except for newline terminators, ex: /en../ matches the word starting with en and three charachers after it 
+           note that the pattern /\./ will match the dot only
+--> "^"    caret characher indicates that the following pattern should be at the beginning of the string or the line
+--> "$"    caret characher indicates that the PRECEDING - ex: /pattern$/ - pattern should be at the end of the string or the line
+--> "*"    match zero or more occurences of the character ex:  /k*/ matches "" "k" "kk" "kkk" ...
+--> "+"    match one or more occurences of the character ex:  /k+/ matches "k" "kk" "kkk" ...
+--> "?"    match zero or one occurence of the character ex:  /k?/ matches "" "k"
+--> "{n}"  match n occurrences of the preceding character ex: /k{3}/ matches "kkk"
+--> "{n,}"  match n or more occurrences of the preceding character ex: /k{3,}/ matches "kkk" "kkkk" ....
+--> "{n,m}"  match interval from n to m occurrences of the preceding character ex: /k{2,4}/ matches "kk" "kkk" "kkkk"
+++++++++++End Note #4++++++++++
+
+++++++++++Note #5++++++++++
+Uploading images into database & viewing them: !best practice!
+1-Each server has two sections 
+    1-one to store structured data (the DB that we query on)
+    2-a file system to store the actual files (imgs, videos, etc...)
+2-Storing images has two main steps : 
+    1- storing the image metadata(name, path on the server, size, tmp name) on the DB => insert query
+    2- storing the actual image on the server's file system => move_uploaded_file(TMP_file name (if not tmp it won't work), upload path on the server);
+3-To view the imgs => <img src="the fetched path from DB">
+++++++++++End Note #5++++++++++
+
+++++++++++Note #6++++++++++
+If you get wrning when using session_start()
+go to php.ini and change this => session.save_path = "C:/xampp/tmp" to session.save_path = "G:/xampp/tmp"
+"type whatever directory of the tmp file in xampp"
+++++++++++End Note #6++++++++++
+
+++++++++++Note #7++++++++++
+Constraint based thinking
+https://chatgpt.com/c/6874b610-ea58-8010-93fa-f313aef068e1
+++++++++++End Note #7++++++++++
+
+++++++++++Note #8++++++++++
+Don't make nested forms in html
+++++++++++End Note #8++++++++++
+
+++++++++++Note #9++++++++++
+The optimal fetching flow 
+ 1- Make connection connection string ex: $dsn = "mysql:host=localhost;dbname=crud_ops";
+ 2- $record = $connection->prepare($query); //placeholder paraameter should start with {:}
+ 3- $record = $record->execute(); // to check 
+ 4- after checking => $record->fetch(PDO::FETCH_ASSOC);
+++++++++++End Note #9++++++++++
+
+++++++++++Note #10++++++++++
+Insane object behaviour 
+https://chatgpt.com/c/687b6444-41c8-8010-be68-87010d7d1f1d
+++++++++++End Note #10++++++++++
+
+++++++++++Note #11++++++++++
+password_hash method in php generates random hash every time even for the same pw
+++++++++++End Note #11++++++++++
