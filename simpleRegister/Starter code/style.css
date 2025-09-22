@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Outfit", sans-serif;
+}
+:root {
+  --main-color: #7a316f;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-btn {
+  width: 15rem;
+  height: 4rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  background-color: var(--main-color);
+  box-shadow: 0.3rem 0.3rem 0.8rem #a7a6a6;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+.display-btn a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.form-input-container {
+  margin: 1.5rem 0;
+  box-shadow: 0.6rem 0.6rem 0.6rem #eee;
+  border-radius: 5rem;
+  position: relative;
+}
+
+.form input {
+  width: 50rem;
+  height: 5rem;
+  background-color: #fff;
+  font-size: 1.8rem;
+  padding: 0 1.8rem;
+  letter-spacing: 0.2rem;
+  border: none;
+  border-radius: 5rem;
+}
+
+.form-input {
+  box-shadow: 0.3rem 0.3rem 0.5rem #eee inset;
+  color: #888;
+}
+
+.form-input:focus {
+  box-shadow: 0.7rem 0.7rem 2rem #eee inset;
+}
+
+.form-btn {
+  box-shadow: 0.7rem 0.7rem 2rem #ddd;
+  color: var(--main-color);
+  margin: 3rem 0;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Table Styles */
+
+.table_container {
+  margin: 2rem 5rem 5rem;
+  box-shadow: 0px 4rem 5rem rgba(0, 0, 0, 0.2);
+}
+
+.table {
+  font-size: 0.75rem; /* Converted from 12px */
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: #fff;
+}
+
+.table th {
+  font-size: 2rem; /* Converted from 20px */
+}
+
+.table td,
+.table th {
+  text-align: center;
+  padding: 1.5rem; /* Converted from 15px */
+}
+
+.table td {
+  border-right: 0.1rem solid #edebeb; /* Converted from 1px */
+  font-size: 1.5rem; /* Converted from 15px */
+}
+
+.table thead th {
+  color: #fff;
+  background: var(--main-color);
+}
+
+.table tr:nth-child(even) {
+  background: #eff6f8;
+}
+
+.fa-pen-to-square {
+  color: var(--main-color);
+  margin-right: 2rem; /* Converted from 20px */
+}
+
+.fa-trash {
+  color: rgb(246, 98, 98);
+}
+
+.no_records {
+  text-align: center;
+  color: rgb(246, 98, 98);
+  margin-top: 10rem; /* Converted from 100px */
+}
