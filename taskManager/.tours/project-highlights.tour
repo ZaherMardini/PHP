@@ -1,0 +1,41 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Project highlights",
+  "steps": [
+    {
+      "file": "index.php",
+      "description": "didn't check all of them because they are created togeather",
+      "line": 3
+    },
+    {
+      "file": "index.php",
+      "description": "the fuction has no arguments because the the key name can be accessed using $_POST",
+      "line": 78
+    },
+    {
+      "file": "index.php",
+      "description": "Here the usort function needs to have a callback function with only two parameters, i needed to extend the \r\nTask::customCompare function by adding the descending and ascending order, and the feature needs a parameter,\r\nso the function now accepts three parameters, to include it in the usort function i used the closure concept, \r\ni passed the third parameter with an anonymos function, if the parameter is a variable it should be added like this \r\nfn(Task $obj1, Task $obj2) use($third) => Task::customCompare($obj1, $obj2, $third) ",
+      "line": 38
+    },
+    {
+      "file": "index.php",
+      "description": "in case of a delete key pressed the name will contain dlt_btnID, the explode will return an array that has two elements the dlt_ prefix and the dlt_ID\r\n\r\nindex is zero because post will only have 1 element in case of deleting",
+      "line": 80
+    },
+    {
+      "file": "index.php",
+      "description": "here the task is deleted using the ID, simulation for events",
+      "line": 86
+    },
+    {
+      "file": "index.php",
+      "description": "for Testing \r\n\r\n    // echo \"<pre> exploded  \";\r\n    // print_r($exploded); => code tour\r\n    // echo \"</pre>\";\r\n",
+      "line": 92
+    },
+    {
+      "file": "index.php",
+      "description": "// Testing sorting \r\n        // $test = [\r\n        //   new Task(\"zozo\"),\r\n        //   new Task(\"toto\"),\r\n        //   new Task(\"bobo\"),\r\n        // ];\r\n        // echo \"<pre> before testing sorting   \";\r\n        // print_r($test);\r\n        // echo \"</pre>\";\r\n        // usort($test, 'Task::customCompare');\r\n        // echo \"<pre> testing sorting   \";\r\n        // print_r($test);\r\n        // echo \"</pre>\";\r\n        // Testing sorting \r\n        \r\n        // Testing session arrays \r\n        // echo \"<pre> POST   \";\r\n        // print_r($_POST);\r\n        // echo \"</pre>\";\r\n        // echo \"<pre> total  \";\r\n        // print_r($_SESSION[\"All\"]);\r\n        // echo \"</pre>\";\r\n        // echo \"<pre> completed  \";\r\n        // print_r($_SESSION[\"completed\"]);\r\n        // echo \"</pre>\";\r\n        // echo \"<pre> incompleted  \";\r\n        // print_r($_SESSION[\"incompleted\"]);\r\n        // echo \"</pre>\";\r\n        // Testing session arrays",
+      "line": 168
+    }
+  ]
+}
